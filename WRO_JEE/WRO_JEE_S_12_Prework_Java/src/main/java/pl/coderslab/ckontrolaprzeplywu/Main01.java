@@ -3,14 +3,14 @@ package pl.coderslab.ckontrolaprzeplywu;
 public class Main01 {
 
     public static void main(String[] args) {
-        for(int i=1; i<=10; i++) {
-            System.out.print(i + " ");
+
+        int number1 = 3;
+        int number2 = 7;
+        if (number1 > number2){
+            System.out.println("Highest number is " + number1);
         }
-        System.out.println();
-        int j=1;
-        while(j<=10) {
-            System.out.print(j + " ");
-            j++;
+        else{
+            System.out.println("Highest number is " + number2);
         }
 
     }

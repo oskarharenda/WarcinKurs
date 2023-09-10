@@ -7,11 +7,11 @@ public class Main07 {
         double suma=0;
         double avg=0;
         for(int i=0; i<temps.length; i++){
-            temps[i]*=1.8;
-            temps[i]+=32;
-            suma+=temps[i];
+            temps[i] *= 1.8;
+            temps[i] += 32;
+            suma += temps[i];
         }
-        avg=suma/temps.length;
+        avg = suma / temps.length;
         System.out.println(String.format("%.2f",avg));
     }
 
