@@ -1,3 +1,4 @@
+/**
 package a_Zadania.d_Dzien_4.d_External_jar;
 
 import org.apache.commons.lang3.StringUtils;
@@ -11,3 +12,4 @@ public class Main1 {
     }
 
 }
+**/
